@@ -16,21 +16,21 @@
       </p>
       
       <div class="por-que-tema-dados">
-        <div class="por-que-tema-card card-animate card-animate-delay-1">
+        <div class="por-que-tema-card">
           <div class="por-que-tema-numero">14</div>
           <p class="por-que-tema-descricao">
             Apenas <strong>14 em cada 1.000</strong> brasileiros doam sangue regularmente
           </p>
         </div>
         
-        <div class="por-que-tema-card destaque card-animate card-animate-delay-2">
+        <div class="por-que-tema-card destaque">
           <div class="por-que-tema-numero">4</div>
           <p class="por-que-tema-descricao">
             Uma doação pode salvar até <strong>quatro vidas</strong>
           </p>
         </div>
         
-        <div class="por-que-tema-card card-animate card-animate-delay-3">
+        <div class="por-que-tema-card">
           <div class="por-que-tema-numero">∞</div>
           <p class="por-que-tema-descricao">
             Queremos mudar essa realidade mostrando que <strong>aprender também é salvar vidas</strong>

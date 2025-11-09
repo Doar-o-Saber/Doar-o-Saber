@@ -32,8 +32,15 @@ import Rodape from './components/Rodape.vue'
 export default {
   name: 'App',
   components: {
-    Cabecalho, Hero, SobreProjeto, PorQueTema, ComoFunciona,
-    SejaPalestrante, Beneficios, Apoio, Rodape
+    Cabecalho,
+    Hero,
+    SobreProjeto,
+    PorQueTema,
+    ComoFunciona,
+    SejaPalestrante,
+    Beneficios,
+    Apoio,
+    Rodape
   }
 }
 </script>

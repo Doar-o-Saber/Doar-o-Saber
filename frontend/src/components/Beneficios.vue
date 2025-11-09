@@ -16,32 +16,28 @@
       </p>
       
       <div class="beneficios-grid">
-        <div class="beneficio-card card-animate card-animate-delay-1">
-          
+        <div class="beneficio-card">
           <h3 class="beneficio-titulo">Certificados de participação</h3>
           <p class="beneficio-descricao">
             Receba certificados reconhecidos por sua participação nas palestras
           </p>
         </div>
         
-        <div class="beneficio-card card-animate card-animate-delay-2">
-          
+        <div class="beneficio-card">
           <h3 class="beneficio-titulo">Bonificações para doadores</h3>
           <p class="beneficio-descricao">
             Doadores de sangue recebem brindes e benefícios exclusivos
           </p>
         </div>
         
-        <div class="beneficio-card card-animate card-animate-delay-3">
-         
+        <div class="beneficio-card">
           <h3 class="beneficio-titulo">Networking entre jovens cientistas</h3>
           <p class="beneficio-descricao">
             Conecte-se com outros jovens apaixonados por ciência e tecnologia
           </p>
         </div>
         
-        <div class="beneficio-card card-animate card-animate-delay-4">
-         
+        <div class="beneficio-card">
           <h3 class="beneficio-titulo">Experiência real de impacto social</h3>
           <p class="beneficio-descricao">
             Viva a experiência de fazer a diferença na vida de muitas pessoas

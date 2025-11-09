@@ -3,17 +3,21 @@ import App from './App.vue'
 import './styles/global.css'
 import { initScrollAnimations } from './utils/scrollAnimations.js'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.mount('#app')
 
 if (typeof window !== 'undefined') {
-  window.addEventListener('load', () => {
-    setTimeout(() => {
+
+  const initAnimations = () => {
+    requestAnimationFrame(() => {
       initScrollAnimations()
-    }, 300)
-  })
+    })
+  }
   
-  setTimeout(() => {
-    initScrollAnimations()
-  }, 1000)
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', initAnimations)
+  } else {
+    initAnimations()
+  }
 }
 

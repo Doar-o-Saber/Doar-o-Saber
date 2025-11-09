@@ -7,13 +7,11 @@
   top: 2rem;
   z-index: 1000;
   padding: 1rem 0;
-  margin-top: 1rem;
-  margin-left: 5%;
-  transition: all 0.3s ease;
+  margin: 1rem 0 0 5%;
+  transition: var(--transicao-suave);
   border-radius: 40px;
   max-width: 90%;
 }
-
 
 .cabecalho-conteudo {
   display: flex;
@@ -69,10 +67,6 @@
   .cabecalho-menu {
     display: none;
   }
-  
-  .cabecalho-conteudo {
-    justify-content: space-between;
-  }
 }
 
 @media (max-width: 768px) {
@@ -85,4 +79,3 @@
     padding: 8px 16px;
   }
 }
-

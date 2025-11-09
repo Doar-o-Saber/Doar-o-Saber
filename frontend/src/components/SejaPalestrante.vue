@@ -39,7 +39,9 @@ import fig2 from '../assets/fig2.png'
 
 export default {
   name: 'SejaPalestrante',
-  data: () => ({ fig2 })
+  data() {
+    return { fig2 }
+  }
 }
 </script>
 

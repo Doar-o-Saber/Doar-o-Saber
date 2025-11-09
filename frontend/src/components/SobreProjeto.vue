@@ -37,7 +37,9 @@ import fig1 from '../assets/fig1.png'
 
 export default {
   name: 'SobreProjeto',
-  data: () => ({ fig1 })
+  data() {
+    return { fig1 }
+  }
 }
 </script>
 

@@ -13,7 +13,7 @@
         <a href="#apoio" class="cabecalho-link">Apoio</a>
       </nav>
       
-      <a  class="cabecalho-botao botao-primario">
+      <a href="#participar" class="cabecalho-botao botao-primario">
         Quero Participar!
       </a>
     </div>
@@ -25,7 +25,9 @@ import logo from '../assets/logo.png'
 
 export default {
   name: 'Cabecalho',
-  data: () => ({ logo })
+  data() {
+    return { logo }
+  }
 }
 </script>
 

@@ -70,7 +70,9 @@ import logo from '../assets/logo.png'
 
 export default {
   name: 'Rodape',
-  data: () => ({ logo })
+  data() {
+    return { logo }
+  }
 }
 </script>
 
