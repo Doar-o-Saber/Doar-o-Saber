@@ -21,7 +21,7 @@
             Jovens engajados podem se inscrever para 
             compartilhar seus conhecimentos e conectar seus temas à doação de sangue.
           </p>
-          <a href="#https://docs.google.com/forms/d/e/1FAIpQLScq66eMsv9SvotJXYyuGS1PVR5Wopn1BzLwm59BMVsNC-A2sQ/viewform" class="seja-palestrante-botao botao-primario">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScq66eMsv9SvotJXYyuGS1PVR5Wopn1BzLwm59BMVsNC-A2sQ/viewform" class="seja-palestrante-botao botao-primario">
             Quero ser palestrante
           </a>
         </div>
