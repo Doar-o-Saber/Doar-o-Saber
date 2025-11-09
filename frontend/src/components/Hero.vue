@@ -53,7 +53,7 @@
           <a href="#participar" class="hero-botao-principal botao-primario">
             Quero participar das palestras
           </a>
-          <a href="#palestrante" class="hero-botao-secundario botao-secundario">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScq66eMsv9SvotJXYyuGS1PVR5Wopn1BzLwm59BMVsNC-A2sQ/viewform" class="hero-botao-secundario botao-secundario">
             Quero ser palestrante
           </a>
         </div>
