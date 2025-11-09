@@ -1,18 +1,18 @@
 {
-  "name": "doar-o-saber-frontend",
+  "name": "doar-o-saber",
   "version": "1.0.0",
-  "description": "Frontend do projeto Doar o Saber",
-  "type": "module",
+  "description": "Landing page do projeto Doar o Saber",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.0"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.0",
-    "vite": "^5.0.0"
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.9"
   }
 }
+

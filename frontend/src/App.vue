@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <header class="header">
-      <h1>Doar o Saber</h1>
-      <p>Plataforma de doação de conhecimento</p>
-    </header>
-    
-    <main class="main">
-      <div class="container">
-        <h2>Bem-vindo ao Doar o Saber!</h2>
-        <p>Esta é a página inicial da aplicação.</p>
-      </div>
-    </main>
-    
-    <footer class="footer">
-      <p>&copy; 2025 Doar o Saber. Todos os direitos reservados.</p>
-    </footer>
+  <div class="app">
+    <Cabecalho />
+    <Hero />
+    <div class="separador-secao"></div>
+    <SobreProjeto />
+    <div class="separador-secao"></div>
+    <PorQueTema />
+    <div class="separador-secao"></div>
+    <ComoFunciona />
+    <div class="separador-secao"></div>
+    <SejaPalestrante />
+    <div class="separador-secao"></div>
+    <Beneficios />
+    <div class="separador-secao"></div>
+    <Apoio />
+    <Rodape />
   </div>
 </template>
 
 <script>
+import Cabecalho from './components/Cabecalho.vue'
+import Hero from './components/Hero.vue'
+import SobreProjeto from './components/SobreProjeto.vue'
+import PorQueTema from './components/PorQueTema.vue'
+import ComoFunciona from './components/ComoFunciona.vue'
+import SejaPalestrante from './components/SejaPalestrante.vue'
+import Beneficios from './components/Beneficios.vue'
+import Apoio from './components/Apoio.vue'
+import Rodape from './components/Rodape.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Cabecalho, Hero, SobreProjeto, PorQueTema, ComoFunciona,
+    SejaPalestrante, Beneficios, Apoio, Rodape
+  }
 }
 </script>
 
 <style scoped>
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
 </style>
+

@@ -1,0 +1,102 @@
+.seja-palestrante {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--cor-azul), #004a8f);
+  color: var(--cor-branco);
+  overflow: hidden;
+  position: relative;
+}
+
+.seja-palestrante-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.seja-palestrante-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.seja-palestrante-titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--cor-branco);
+}
+
+.seja-palestrante-descricao {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--cor-branco);
+}
+
+.seja-palestrante-subdescricao {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.seja-palestrante-botao {
+  margin-top: 1rem;
+  align-self: flex-start;
+  background-color: var(--cor-branco);
+  color: var(--cor-azul);
+}
+
+.seja-palestrante-botao:hover {
+  background-color: var(--cor-bege);
+  color: var(--cor-azul);
+}
+
+.seja-palestrante-ilustracao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seja-palestrante-imagem {
+  max-width: 70%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 968px) {
+  .seja-palestrante-conteudo {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .seja-palestrante-texto {
+    align-items: center;
+  }
+  
+  .seja-palestrante-botao {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .seja-palestrante {
+    padding: 3rem 0;
+  }
+  
+  .seja-palestrante-titulo {
+    font-size: 2rem;
+  }
+  
+  .seja-palestrante-descricao {
+    font-size: 1.2rem;
+  }
+  
+  .seja-palestrante-subdescricao {
+    font-size: 1rem;
+  }
+  
+  .seja-palestrante-imagem {
+    max-width: 80%;
+  }
+}
+
