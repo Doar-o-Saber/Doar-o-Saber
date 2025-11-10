@@ -10,6 +10,9 @@
     </div>
     <div class="container">
       <h2 class="titulo-secao">Apoio</h2>
+      <p class="subtitulo-secao">
+        Instituições que nos apoiam
+      </p>
       
       <div class="apoio-logos">
         <div class="apoio-logo-item">
