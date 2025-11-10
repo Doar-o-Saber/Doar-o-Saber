@@ -11,7 +11,7 @@
     <div class="container">
       <h2 class="titulo-secao">Apoio</h2>
       <p class="subtitulo-secao">
-        Instituições parceiras que que apoiom e acreditam no nosso projeto.
+        Instituições parceiras que apoiam e acreditam no Doar o Saber.
       </p>
       
       <div class="apoio-logos">
