@@ -10,10 +10,6 @@
     </div>
     <div class="container">
       <h2 class="titulo-secao">Apoio</h2>
-      <p class="subtitulo-secao">
-        Acreditamos no poder da educação e da tecnologia para gerar impacto social 
-        e inspirar jovens a fazerem a diferença.
-      </p>
       
       <div class="apoio-logos">
         <div class="apoio-logo-item">
@@ -25,10 +21,6 @@
         </div>
       </div>
       
-      <p class="apoio-texto">
-        Se sua instituição ou organização quer apoiar este projeto, 
-        entre em contato conosco!
-      </p>
     </div>
   </section>
 </template>
