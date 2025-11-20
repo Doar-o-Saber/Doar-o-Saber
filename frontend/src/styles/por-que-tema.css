@@ -37,11 +37,14 @@
 
 .por-que-tema-card.destaque:hover {
   box-shadow: 0 8px 30px rgba(230, 57, 70, 0.4);
+  transform: translateY(-5px);
 }
 
-.por-que-tema-card.destaque .por-que-tema-numero,
-.por-que-tema-card.destaque .por-que-tema-descricao,
-.por-que-tema-card.destaque .por-que-tema-descricao strong {
+.por-que-tema-card.destaque .por-que-tema-numero {
+  color: var(--cor-branco);
+}
+
+.por-que-tema-card.destaque .por-que-tema-descricao {
   color: var(--cor-branco);
 }
 
@@ -64,10 +67,15 @@
   font-weight: 700;
 }
 
+.por-que-tema-card.destaque .por-que-tema-descricao strong {
+  color: var(--cor-branco);
+}
+
 @media (max-width: 968px) {
   .por-que-tema-dados {
     grid-template-columns: 1fr;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -86,4 +94,6 @@
   .por-que-tema-descricao {
     font-size: 1rem;
   }
+  
 }
+

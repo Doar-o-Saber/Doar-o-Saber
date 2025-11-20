@@ -34,9 +34,7 @@ import girlsupLogo from '../assets/girlsup.png'
 
 export default {
   name: 'Apoio',
-  data() {
-    return { techgirlsLogo, girlsupLogo }
-  }
+  data: () => ({ techgirlsLogo, girlsupLogo })
 }
 </script>
 

@@ -58,6 +58,7 @@
 .seja-palestrante-imagem {
   max-width: 70%;
   height: auto;
+  width: auto;
   object-fit: contain;
 }
 
@@ -98,3 +99,4 @@
     max-width: 80%;
   }
 }
+

@@ -1,23 +1,28 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 import './styles/global.css'
 import { initScrollAnimations } from './utils/scrollAnimations.js'
 
-const app = createApp(App)
+const app = createApp(App).use(router)
+
+router.afterEach(() => {
+  setTimeout(() => {
+    initScrollAnimations()
+  }, 100)
+})
+
 app.mount('#app')
 
 if (typeof window !== 'undefined') {
-
-  const initAnimations = () => {
-    requestAnimationFrame(() => {
+  window.addEventListener('load', () => {
+    setTimeout(() => {
       initScrollAnimations()
-    })
-  }
+    }, 300)
+  })
   
-  if (document.readyState === 'loading') {
-    window.addEventListener('DOMContentLoaded', initAnimations)
-  } else {
-    initAnimations()
-  }
+  setTimeout(() => {
+    initScrollAnimations()
+  }, 1000)
 }
 

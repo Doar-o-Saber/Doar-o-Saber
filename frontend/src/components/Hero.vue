@@ -53,7 +53,7 @@
           <a href="#participar" class="hero-botao-principal botao-primario">
             Quero participar das palestras
           </a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScq66eMsv9SvotJXYyuGS1PVR5Wopn1BzLwm59BMVsNC-A2sQ/viewform" class="hero-botao-secundario botao-secundario">
+          <a href="#palestrante" class="hero-botao-secundario botao-secundario">
             Quero ser palestrante
           </a>
         </div>
@@ -65,37 +65,39 @@
 <script>
 import logo from '../assets/logo.png'
 
-const MS_POR_DIA = 86400000
-const MS_POR_HORA = 3600000
-const MS_POR_MINUTO = 60000
-const MS_POR_SEGUNDO = 1000
-
 export default {
   name: 'Hero',
-  data() {
-    return {
-      logo,
-      countdown: { dias: 0, horas: 0, minutos: 0, segundos: 0 },
-      intervalo: null
-    }
-  },
+  data: () => ({
+    logo,
+    countdown: {
+      dias: 0,
+      horas: 0,
+      minutos: 0,
+      segundos: 0
+    },
+    intervalo: null
+  }),
   mounted() {
     this.atualizarCountdown()
-    this.intervalo = setInterval(this.atualizarCountdown, 1000)
+    this.intervalo = setInterval(() => {
+      this.atualizarCountdown()
+    }, 1000)
   },
   beforeUnmount() {
-    if (this.intervalo) clearInterval(this.intervalo)
+    clearInterval(this.intervalo)
   },
   methods: {
     atualizarCountdown() {
-      const diferenca = Math.max(0, new Date('2025-11-23T00:00:00') - new Date())
-      this.countdown.dias = Math.floor(diferenca / MS_POR_DIA)
-      this.countdown.horas = Math.floor((diferenca % MS_POR_DIA) / MS_POR_HORA)
-      this.countdown.minutos = Math.floor((diferenca % MS_POR_HORA) / MS_POR_MINUTO)
-      this.countdown.segundos = Math.floor((diferenca % MS_POR_MINUTO) / MS_POR_SEGUNDO)
+      const dataFinal = new Date('2025-11-23T00:00:00')
+      const diferenca = Math.max(0, dataFinal - new Date())
+      
+      this.countdown.dias = Math.floor(diferenca / 86400000)
+      this.countdown.horas = Math.floor((diferenca % 86400000) / 3600000)
+      this.countdown.minutos = Math.floor((diferenca % 3600000) / 60000)
+      this.countdown.segundos = Math.floor((diferenca % 60000) / 1000)
     },
-    formatarNumero(num) {
-      return String(num).padStart(2, '0')
+    formatarNumero(numero) {
+      return numero.toString().padStart(2, '0')
     }
   }
 }

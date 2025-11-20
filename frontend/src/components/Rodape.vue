@@ -10,14 +10,14 @@
             Transformando conhecimento em solidariedade através da ciência e tecnologia.
           </p>
           <div class="rodape-redes-sociais">
-            <a href="https://www.instagram.com/projetodoarosaber" target="_blank" class="rodape-rede-link" aria-label="Instagram">
+            <a href="https://instagram.com/doarosaber" target="_blank" class="rodape-rede-link" aria-label="Instagram">
               <svg class="rodape-rede-icone" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" fill="none"/>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" fill="none"/>
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </a>
-            <a href="mailto:doarosaberprojeto@gmail.com" class="rodape-rede-link" aria-label="E-mail">
+            <a href="mailto:contato@doarosaber.com" class="rodape-rede-link" aria-label="E-mail">
               <svg class="rodape-rede-icone" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="currentColor"/>
               </svg>
@@ -70,9 +70,7 @@ import logo from '../assets/logo.png'
 
 export default {
   name: 'Rodape',
-  data() {
-    return { logo }
-  }
+  data: () => ({ logo })
 }
 </script>
 
