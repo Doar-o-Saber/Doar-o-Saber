@@ -50,7 +50,7 @@
         </p>
         
         <div class="hero-botoes">
-          <a href="#https://docs.google.com/forms/d/e/1FAIpQLSfE3ao5NtD3XdfFF28_wL9CuekJoTTtEp6c_pQ3_HeWjC4Xpg/viewform" class="hero-botao-principal botao-primario">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfE3ao5NtD3XdfFF28_wL9CuekJoTTtEp6c_pQ3_HeWjC4Xpg/viewform" class="hero-botao-principal botao-primario">
             Quero participar das palestras
           </a>
           <a href="#palestrante" class="hero-botao-secundario botao-secundario">
